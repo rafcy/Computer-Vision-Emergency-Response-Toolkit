@@ -32,13 +32,13 @@ You can set the desired image width/height from global variables.
 * save_results = True: you always save your results to Detections/images or Detection/videos (depends on the detection) folders inside your current directory.
 * *For the Video detections, the video frames capture is done using threading (recv_thread() function) in order to increase the performance significantly.*
 
-**##Functions included:##**
+**#unctions included:**
 - Finding IOU of 2 boxes: bb_iou()
 - Finding euclidean distance of 2 points:  MidPoint()
 
 
 
-**##HOW TO USE:##**
+**HOW TO USE:**
 - Install required packages
 - Set as True for the use case you want to use (video RGB/thermal, RGB image)
 - Configure NN config/weights/label files for RGB detections
