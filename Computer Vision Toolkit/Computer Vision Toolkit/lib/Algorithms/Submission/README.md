@@ -1,10 +1,8 @@
-####
 **Submission For "Where is the Missing Person" Contest**
-Febuary 2020.
-Rafael Makrigiorgis - makrigiorgis.rafael@ucy.ac.cy.
-Panayiotis Kolios - kolios.panayiotis@ucy.ac.cy.
+Febuary 2020
+Rafael Makrigiorgis - makrigiorgis.rafael@ucy.ac.cy
+Panayiotis Kolios - kolios.panayiotis@ucy.ac.cy
 
-####
 
 *Works in any python environment (Windows/Linux platforms).*
 
