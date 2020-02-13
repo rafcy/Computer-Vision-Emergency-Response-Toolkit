@@ -6,12 +6,12 @@ Panayiotis Kolios - kolios.panayiotis@ucy.ac.cy
 
 ####
 
-*Works in any python environment (Windows/Linux platforms).
+*Works in any python environment (Windows/Linux platforms).*
 
 **Package requirments:**
 Opencv, numpy, imutils
 
-**##Description:##**
+**Description:**
 
 * We have 3 main functions, one for RGB Video detection,  one for RGB image detection and the last one for thermal video motion detection. 
 Set from the main function to True the only one you wish to run. 
@@ -25,12 +25,12 @@ Set from the main function to True the only one you wish to run.
 - If the saved boxes for each box id are more than 5, it calculates the euclidean distance of its trajectory. If the euclidean distance is above a certatin threshold, it means it is moving and it draws the latest box and its trajectory.
 -In the meanwhile, if a saved box is not detected for 20 frames, it resets the boxes of its ID so it will not match it with something else. 
 
-**##Notes##**
+**Notes**
 * resize = True: you resize the input frames in order to increase performance of detections (most desirable for video detections).
 You can set the desired image width/height from global variables.
 
 * save_results = True: you always save your results to Detections/images or Detection/videos (depends on the detection) folders inside your current directory.
-*For the Video detections, the video frames capture is done using threading (recv_thread() function) in order to increase the performance significantly.
+* *For the Video detections, the video frames capture is done using threading (recv_thread() function) in order to increase the performance significantly.*
 
 **##Functions included:##**
 - Finding IOU of 2 boxes: bb_iou()
